@@ -7,7 +7,7 @@
 //
 
 import Foundation
-import SwifteriOS
+import Swifter
 import RxSwift
 import Nuke
 import NukeToucanPlugin

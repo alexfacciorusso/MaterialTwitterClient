@@ -15,6 +15,7 @@ import PureLayout
 class DashboardViewController: MDCCollectionViewController {
     let reusableCellItem = "cellItem"
     let tweetSelectedSegueId = "TweetSelected"
+    let circlePlaceholderImage = UIImage.circle(diameter: 40, color: MDCPalette.grey().tint200)
     
     let appBar = MDCAppBar()
     let activityIndicator = MDCActivityIndicator.newAutoLayout()
@@ -101,6 +102,7 @@ extension DashboardViewController {
             mdCell.textLabel?.numberOfLines = 2
             mdCell.textLabel?.tintColor = MaterialTwitterClient.colorAccent
             mdCell.textLabel?.setTwitterText(fromString: currentTweet.text)
+            mdCell.imageView?.image = circlePlaceholderImage
             
             if let avatar = currentTweet.avatar {
                 let request = Nuke.Request(url: avatar).processed(key: "Avatar") {
@@ -110,7 +112,6 @@ extension DashboardViewController {
                 Nuke.loadImage(with: request, into: mdCell) { [weak mdCell] response, _ in
                     guard let imageView = mdCell?.imageView else {return}
                     imageView.image = response.value
-                    mdCell?.setNeedsLayout()
                 }
             }
         }
@@ -145,5 +146,23 @@ extension DashboardViewController {
             let headerView = appBar.headerViewController.headerView
             headerView.trackingScrollWillEndDragging(withVelocity: velocity, targetContentOffset: targetContentOffset)
         }
+    }
+}
+
+extension UIImage {
+    class func circle(diameter: CGFloat, color: UIColor) -> UIImage {
+        UIGraphicsBeginImageContextWithOptions(CGSize(width: diameter, height: diameter), false, 0)
+        let ctx = UIGraphicsGetCurrentContext()!
+        ctx.saveGState()
+        
+        let rect = CGRect(x: 0, y: 0, width: diameter, height: diameter)
+        ctx.setFillColor(color.cgColor)
+        ctx.fillEllipse(in: rect)
+        
+        ctx.restoreGState()
+        let img = UIGraphicsGetImageFromCurrentImageContext()!
+        UIGraphicsEndImageContext()
+        
+        return img
     }
 }
