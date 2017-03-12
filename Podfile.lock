@@ -1,0 +1,199 @@
+PODS:
+  - MaterialComponents (22.1.0):
+    - MaterialComponents/ActivityIndicator (= 22.1.0)
+    - MaterialComponents/AnimationTiming (= 22.1.0)
+    - MaterialComponents/AppBar (= 22.1.0)
+    - MaterialComponents/ButtonBar (= 22.1.0)
+    - MaterialComponents/Buttons (= 22.1.0)
+    - MaterialComponents/CollectionCells (= 22.1.0)
+    - MaterialComponents/CollectionLayoutAttributes (= 22.1.0)
+    - MaterialComponents/Collections (= 22.1.0)
+    - MaterialComponents/Dialogs (= 22.1.0)
+    - MaterialComponents/FeatureHighlight (= 22.1.0)
+    - MaterialComponents/FlexibleHeader (= 22.1.0)
+    - MaterialComponents/HeaderStackView (= 22.1.0)
+    - MaterialComponents/Ink (= 22.1.0)
+    - MaterialComponents/NavigationBar (= 22.1.0)
+    - MaterialComponents/OverlayWindow (= 22.1.0)
+    - MaterialComponents/PageControl (= 22.1.0)
+    - MaterialComponents/Palettes (= 22.1.0)
+    - MaterialComponents/private (= 22.1.0)
+    - MaterialComponents/ProgressView (= 22.1.0)
+    - MaterialComponents/ShadowElevations (= 22.1.0)
+    - MaterialComponents/ShadowLayer (= 22.1.0)
+    - MaterialComponents/Slider (= 22.1.0)
+    - MaterialComponents/Snackbar (= 22.1.0)
+    - MaterialComponents/Tabs (= 22.1.0)
+    - MaterialComponents/Typography (= 22.1.0)
+  - MaterialComponents/ActivityIndicator (22.1.0):
+    - MaterialComponents/private/Application
+    - MaterialComponents/private/RTL
+  - MaterialComponents/AnimationTiming (22.1.0)
+  - MaterialComponents/AppBar (22.1.0):
+    - MaterialComponents/FlexibleHeader
+    - MaterialComponents/HeaderStackView
+    - MaterialComponents/NavigationBar
+    - MaterialComponents/private/Icons/ic_arrow_back
+    - MaterialComponents/private/RTL
+    - MaterialComponents/ShadowElevations
+    - MaterialComponents/ShadowLayer
+    - MaterialComponents/Typography
+  - MaterialComponents/ButtonBar (22.1.0):
+    - MaterialComponents/Buttons
+    - MaterialComponents/private/RTL
+  - MaterialComponents/Buttons (22.1.0):
+    - MaterialComponents/Ink
+    - MaterialComponents/ShadowElevations
+    - MaterialComponents/ShadowLayer
+    - MaterialComponents/Typography
+    - MDFTextAccessibility
+  - MaterialComponents/CollectionCells (22.1.0):
+    - MaterialComponents/CollectionLayoutAttributes
+    - MaterialComponents/Ink
+    - MaterialComponents/private/Icons/ic_check
+    - MaterialComponents/private/Icons/ic_check_circle
+    - MaterialComponents/private/Icons/ic_chevron_right
+    - MaterialComponents/private/Icons/ic_info
+    - MaterialComponents/private/Icons/ic_radio_button_unchecked
+    - MaterialComponents/private/Icons/ic_reorder
+    - MaterialComponents/private/RTL
+    - MaterialComponents/Typography
+  - MaterialComponents/CollectionLayoutAttributes (22.1.0)
+  - MaterialComponents/Collections (22.1.0):
+    - MaterialComponents/CollectionCells
+    - MaterialComponents/CollectionLayoutAttributes
+    - MaterialComponents/Ink
+    - MaterialComponents/ShadowElevations
+    - MaterialComponents/ShadowLayer
+    - MaterialComponents/Typography
+  - MaterialComponents/Dialogs (22.1.0):
+    - MaterialComponents/Buttons
+    - MaterialComponents/private/KeyboardWatcher
+    - MaterialComponents/private/RTL
+    - MaterialComponents/ShadowElevations
+    - MaterialComponents/ShadowLayer
+  - MaterialComponents/FeatureHighlight (22.1.0):
+    - MaterialComponents/Typography
+    - MDFTextAccessibility
+  - MaterialComponents/FlexibleHeader (22.1.0):
+    - MaterialComponents/private/Application
+    - MDFTextAccessibility
+  - MaterialComponents/HeaderStackView (22.1.0)
+  - MaterialComponents/Ink (22.1.0)
+  - MaterialComponents/NavigationBar (22.1.0):
+    - MaterialComponents/ButtonBar
+    - MaterialComponents/private/RTL
+    - MaterialComponents/Typography
+    - MDFTextAccessibility
+  - MaterialComponents/OverlayWindow (22.1.0):
+    - MaterialComponents/private/Application
+  - MaterialComponents/PageControl (22.1.0)
+  - MaterialComponents/Palettes (22.1.0)
+  - MaterialComponents/private (22.1.0):
+    - MaterialComponents/private/Application (= 22.1.0)
+    - MaterialComponents/private/Icons (= 22.1.0)
+    - MaterialComponents/private/KeyboardWatcher (= 22.1.0)
+    - MaterialComponents/private/Overlay (= 22.1.0)
+    - MaterialComponents/private/RTL (= 22.1.0)
+    - MaterialComponents/private/ThumbTrack (= 22.1.0)
+  - MaterialComponents/private/Application (22.1.0)
+  - MaterialComponents/private/Icons (22.1.0):
+    - MaterialComponents/private/Icons/Base (= 22.1.0)
+    - MaterialComponents/private/Icons/ic_arrow_back (= 22.1.0)
+    - MaterialComponents/private/Icons/ic_check (= 22.1.0)
+    - MaterialComponents/private/Icons/ic_check_circle (= 22.1.0)
+    - MaterialComponents/private/Icons/ic_chevron_right (= 22.1.0)
+    - MaterialComponents/private/Icons/ic_info (= 22.1.0)
+    - MaterialComponents/private/Icons/ic_radio_button_unchecked (= 22.1.0)
+    - MaterialComponents/private/Icons/ic_reorder (= 22.1.0)
+  - MaterialComponents/private/Icons/Base (22.1.0)
+  - MaterialComponents/private/Icons/ic_arrow_back (22.1.0):
+    - MaterialComponents/private/Icons/Base
+  - MaterialComponents/private/Icons/ic_check (22.1.0):
+    - MaterialComponents/private/Icons/Base
+  - MaterialComponents/private/Icons/ic_check_circle (22.1.0):
+    - MaterialComponents/private/Icons/Base
+  - MaterialComponents/private/Icons/ic_chevron_right (22.1.0):
+    - MaterialComponents/private/Icons/Base
+  - MaterialComponents/private/Icons/ic_info (22.1.0):
+    - MaterialComponents/private/Icons/Base
+  - MaterialComponents/private/Icons/ic_radio_button_unchecked (22.1.0):
+    - MaterialComponents/private/Icons/Base
+  - MaterialComponents/private/Icons/ic_reorder (22.1.0):
+    - MaterialComponents/private/Icons/Base
+  - MaterialComponents/private/KeyboardWatcher (22.1.0):
+    - MaterialComponents/private/Application
+  - MaterialComponents/private/Overlay (22.1.0)
+  - MaterialComponents/private/RTL (22.1.0)
+  - MaterialComponents/private/ThumbTrack (22.1.0):
+    - MaterialComponents/Ink
+    - MaterialComponents/private/RTL
+    - MaterialComponents/ShadowElevations
+    - MaterialComponents/ShadowLayer
+    - MaterialComponents/Typography
+  - MaterialComponents/ProgressView (22.1.0):
+    - MaterialComponents/private/RTL
+  - MaterialComponents/ShadowElevations (22.1.0)
+  - MaterialComponents/ShadowLayer (22.1.0)
+  - MaterialComponents/Slider (22.1.0):
+    - MaterialComponents/private/ThumbTrack
+  - MaterialComponents/Snackbar (22.1.0):
+    - MaterialComponents/AnimationTiming
+    - MaterialComponents/Buttons
+    - MaterialComponents/OverlayWindow
+    - MaterialComponents/private/Application
+    - MaterialComponents/private/KeyboardWatcher
+    - MaterialComponents/private/Overlay
+    - MaterialComponents/Typography
+  - MaterialComponents/Tabs (22.1.0):
+    - MaterialComponents/AnimationTiming
+    - MaterialComponents/Ink
+    - MaterialComponents/private/RTL
+    - MaterialComponents/Typography
+  - MaterialComponents/Typography (22.1.0):
+    - MaterialComponents/private/Application
+  - MDFTextAccessibility (1.1.4)
+  - Nuke (5.1)
+  - Nuke-Toucan-Plugin (0.3):
+    - Nuke (~> 5.0)
+    - Toucan (>= 0.6)
+  - PureLayout (3.0.2)
+  - RxCocoa (3.2.0):
+    - RxSwift (~> 3.1)
+  - RxSwift (3.2.0)
+  - Swifter (2.0.2)
+  - Toucan (0.6.0)
+
+DEPENDENCIES:
+  - MaterialComponents
+  - Nuke
+  - Nuke-Toucan-Plugin
+  - PureLayout
+  - RxCocoa (~> 3.0)
+  - RxSwift (~> 3.0)
+  - Swifter (from `https://github.com/mattdonnelly/Swifter.git`)
+  - Toucan
+
+EXTERNAL SOURCES:
+  Swifter:
+    :git: https://github.com/mattdonnelly/Swifter.git
+
+CHECKOUT OPTIONS:
+  Swifter:
+    :commit: b555f888a225399702c6deec7040e07a368a61f9
+    :git: https://github.com/mattdonnelly/Swifter.git
+
+SPEC CHECKSUMS:
+  MaterialComponents: ce0eae9b1fe2bbc7f260783713ccf97d9d602b20
+  MDFTextAccessibility: aa897b2675bc614c01a331053af680deea692148
+  Nuke: 8ab71e77f6a54ff5fb697f93537c35f419bb01f7
+  Nuke-Toucan-Plugin: 6e19d7e53214eac210126b32d50ae73601aeafe3
+  PureLayout: 4d550abe49a94f24c2808b9b95db9131685fe4cd
+  RxCocoa: ccdf43101a70407097a29082f648ba1676075b30
+  RxSwift: 46574f70d416b7923c237195939cc488a7fbf3a0
+  Swifter: ec243114356f2e4c654a1957b770c6e925d2ea75
+  Toucan: 47485bbc9cb4541ef6318d6886103e6eaf16e919
+
+PODFILE CHECKSUM: 635e865b6428026bd87c113dd7a08798f28f0793
+
+COCOAPODS: 1.2.0
