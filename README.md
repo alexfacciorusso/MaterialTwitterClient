@@ -2,6 +2,8 @@
 
 An example of Twitter client for iOS made with Material Components for iOS by Google.
 
+![Screencast](https://github.com/alexfacciorusso/MaterialTwitterClient/raw/master/screencast.gif)
+
 ## Installation
 Do a `pod install` command in the main directory, and then replace Twitter auth tokens in the `TwitterApi.swift` file with the ones you obtained from https://apps.twitter.com/app/new.
 
